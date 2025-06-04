@@ -1,6 +1,6 @@
 <aside id="layout-menu" class="layout-menu menu-vertical menu bg-menu-theme">
           <div class="app-brand demo">
-            <a href="index.html" class="app-brand-link">
+            <a href="index.php" class="app-brand-link">
               <span class="app-brand-logo demo">
                 <svg
                   width="25"
@@ -72,7 +72,7 @@
 
             <!-- Dashboard -->
             <li class="menu-item active">
-              <a href="index.html" class="menu-link">
+              <a href="index.php" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-home-circle"></i>
                 <div data-i18n="Analytics">Dashboard</div>
               </a>
@@ -85,7 +85,7 @@
             <!-- Leads -->
             <li class="menu-item">
               <a href="javascript:void(0)" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-box"></i>
+                <i class="menu-icon tf-icons bx bx-crown"></i>
                 <div data-i18n="Leads">Leads</div>
               </a>
               <ul class="menu-sub">
@@ -107,7 +107,7 @@
             <!-- Projects -->
             <li class="menu-item">
               <a href="javascript:void(0)" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-box"></i>
+                <i class="menu-icon tf-icons bx bx-receipt"></i>
                 <div data-i18n="Projects">Projects</div>
               </a>
 
@@ -140,7 +140,7 @@
             <!-- Accounts -->
             <li class="menu-item">
               <a href="javascript:void(0)" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-box"></i>
+                <i class="menu-icon tf-icons bx bx-wallet"></i>
                 <div data-i18n="Projects">Accounts</div>
               </a>
 
@@ -173,7 +173,7 @@
             <!-- Notifications -->
             <li class="menu-item">
               <a href="" class="menu-link">
-                <i class="menu-icon tf-icons bx bx-home-circle"></i>
+                <i class="menu-icon tf-icons bx bx-bell"></i>
                 <div data-i18n="Analytics">Notifications</div>
               </a>
             </li>
