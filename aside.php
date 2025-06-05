@@ -83,7 +83,7 @@
             <li class="menu-header small text-uppercase"><span class="menu-header-text">Pages</span></li>
             
             <!-- Leads -->
-            <li class="menu-item <?= in_array($current_page, ['add-lead.php', 'view-leads.php']) ? 'active open' : '' ?>">
+            <li class="menu-item <?= in_array($current_page, ['add-lead.php', 'view-leads.php', 'rejected-leads.php']) ? 'active open' : '' ?>">
               <a href="javascript:void(0)" class="menu-link menu-toggle">
                 <i class="menu-icon tf-icons bx bx-crown"></i>
                 <div data-i18n="Leads">Leads</div>
@@ -97,6 +97,11 @@
                 <li class="menu-item <?= $current_page == 'view-leads.php' ? 'active' : '' ?>">
                   <a href="view-leads.php" class="menu-link">
                     <div data-i18n="View Leads">View Leads</div>
+                  </a>
+                </li>
+                <li class="menu-item <?= $current_page == 'rejected-leads.php' ? 'active' : '' ?>">
+                  <a href="rejected-leads.php" class="menu-link">
+                    <div data-i18n="Rejected Leads">Rejected Leads</div>
                   </a>
                 </li>
               </ul>

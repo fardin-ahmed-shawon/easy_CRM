@@ -9,7 +9,7 @@ $current_page = basename($_SERVER['PHP_SELF']); // Get the current page name
 <div class="card">
                 <div class="card-header">
                       <h5 style="padding-bottom: 22px; border-bottom: 1px solid;" class="text-primary mb-0">
-                        <b>View Leads</b>
+                        <b>Rejected Leads</b>
                       </h5>
                       <br>
                       
@@ -41,7 +41,7 @@ $current_page = basename($_SERVER['PHP_SELF']); // Get the current page name
                         <th>Email</th>
                         <th>Date</th>
                         <th>Staus</th>
-                        <th colspan="2">Option</th>
+                        <th>Option</th>
                         <th>Action</th>
                       </tr>
                     </thead>
@@ -57,96 +57,9 @@ $current_page = basename($_SERVER['PHP_SELF']); // Get the current page name
                             <td>01944667441</td>
                             <td>fardin@gmail.com</td>
                             <td>7/9/25</td>
-                            <td><span class="badge bg-label-primary me-1">Active</span></td>
+                            <td><span class="badge bg-label-danger me-1">Reject</span></td>
 
                             <td><button class="btn btn-primary">Details</button></td>
-                            <td><button class="btn btn-success">Onboard</button></td>
-
-                            <td>
-                            <div class="dropdown">
-                                <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
-                                <i class="bx bx-dots-vertical-rounded"></i>
-                                </button>
-                                <div class="dropdown-menu">
-                                <a class="dropdown-item" href="javascript:void(0);"><i class="bx bx-edit-alt me-1"></i> Edit</a>
-                                <a class="dropdown-item" href="javascript:void(0);"><i class="bx bx-trash me-1"></i> Delete</a>
-                                </div>
-                            </div>
-                            </td>
-                      </tr>
-
-
-                      <tr>
-                            <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>#55</strong>
-                            </td>
-
-                            <td>Easy Tech LTD.</td>
-                            <td>Easy Tech</td>
-                            <td>Fardin</td>
-                            <td>01944667441</td>
-                            <td>fardin@gmail.com</td>
-                            <td>7/9/25</td>
-                            <td><span class="badge bg-label-success me-1">Onboard</span></td>
-
-                            <td><button class="btn btn-primary">Details</button></td>
-                            <td>Alread Onboard</td>
-
-                            <td>
-                            <div class="dropdown">
-                                <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
-                                <i class="bx bx-dots-vertical-rounded"></i>
-                                </button>
-                                <div class="dropdown-menu">
-                                <a class="dropdown-item" href="javascript:void(0);"><i class="bx bx-edit-alt me-1"></i> Edit</a>
-                                <a class="dropdown-item" href="javascript:void(0);"><i class="bx bx-trash me-1"></i> Delete</a>
-                                </div>
-                            </div>
-                            </td>
-                      </tr>
-
-                      <tr>
-                            <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>#55</strong>
-                            </td>
-
-                            <td>Easy Tech LTD.</td>
-                            <td>Easy Tech</td>
-                            <td>Fardin</td>
-                            <td>01944667441</td>
-                            <td>fardin@gmail.com</td>
-                            <td>7/9/25</td>
-                            <td><span class="badge bg-label-info me-1">Meeting</span></td>
-
-                            <td><button class="btn btn-primary">Details</button></td>
-                            <td><button class="btn btn-success">Onboard</button></td>
-
-                            <td>
-                            <div class="dropdown">
-                                <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
-                                <i class="bx bx-dots-vertical-rounded"></i>
-                                </button>
-                                <div class="dropdown-menu">
-                                <a class="dropdown-item" href="javascript:void(0);"><i class="bx bx-edit-alt me-1"></i> Edit</a>
-                                <a class="dropdown-item" href="javascript:void(0);"><i class="bx bx-trash me-1"></i> Delete</a>
-                                </div>
-                            </div>
-                            </td>
-                      </tr>
-
-                      
-                      <tr>
-                            <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>#55</strong>
-                            </td>
-
-                            <td>Easy Tech LTD.</td>
-                            <td>Easy Tech</td>
-                            <td>Fardin</td>
-                            <td>01944667441</td>
-                            <td>fardin@gmail.com</td>
-                            <td>7/9/25</td>
-                            <td><span class="badge bg-label-warning me-1">Pending</span></td>
-
-                            <td><button class="btn btn-primary">Details</button></td>
-                            <td><button class="btn btn-success">Onboard</button></td>
 
                             <td>
                             <div class="dropdown">
@@ -175,7 +88,89 @@ $current_page = basename($_SERVER['PHP_SELF']); // Get the current page name
                             <td><span class="badge bg-label-danger me-1">Reject</span></td>
 
                             <td><button class="btn btn-primary">Details</button></td>
-                            <td>Unavailable</td>
+
+                            <td>
+                            <div class="dropdown">
+                                <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                <i class="bx bx-dots-vertical-rounded"></i>
+                                </button>
+                                <div class="dropdown-menu">
+                                <a class="dropdown-item" href="javascript:void(0);"><i class="bx bx-edit-alt me-1"></i> Edit</a>
+                                <a class="dropdown-item" href="javascript:void(0);"><i class="bx bx-trash me-1"></i> Delete</a>
+                                </div>
+                            </div>
+                            </td>
+                      </tr>
+
+                      <tr>
+                            <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>#55</strong>
+                            </td>
+
+                            <td>Easy Tech LTD.</td>
+                            <td>Easy Tech</td>
+                            <td>Fardin</td>
+                            <td>01944667441</td>
+                            <td>fardin@gmail.com</td>
+                            <td>7/9/25</td>
+                            <td><span class="badge bg-label-danger me-1">Reject</span></td>
+
+                            <td><button class="btn btn-primary">Details</button></td>
+
+                            <td>
+                            <div class="dropdown">
+                                <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                <i class="bx bx-dots-vertical-rounded"></i>
+                                </button>
+                                <div class="dropdown-menu">
+                                <a class="dropdown-item" href="javascript:void(0);"><i class="bx bx-edit-alt me-1"></i> Edit</a>
+                                <a class="dropdown-item" href="javascript:void(0);"><i class="bx bx-trash me-1"></i> Delete</a>
+                                </div>
+                            </div>
+                            </td>
+                      </tr>
+
+                      
+                      <tr>
+                            <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>#55</strong>
+                            </td>
+
+                            <td>Easy Tech LTD.</td>
+                            <td>Easy Tech</td>
+                            <td>Fardin</td>
+                            <td>01944667441</td>
+                            <td>fardin@gmail.com</td>
+                            <td>7/9/25</td>
+                            <td><span class="badge bg-label-danger me-1">Reject</span></td>
+
+                            <td><button class="btn btn-primary">Details</button></td>
+
+                            <td>
+                            <div class="dropdown">
+                                <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                <i class="bx bx-dots-vertical-rounded"></i>
+                                </button>
+                                <div class="dropdown-menu">
+                                <a class="dropdown-item" href="javascript:void(0);"><i class="bx bx-edit-alt me-1"></i> Edit</a>
+                                <a class="dropdown-item" href="javascript:void(0);"><i class="bx bx-trash me-1"></i> Delete</a>
+                                </div>
+                            </div>
+                            </td>
+                      </tr>
+
+
+                      <tr>
+                            <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>#55</strong>
+                            </td>
+
+                            <td>Easy Tech LTD.</td>
+                            <td>Easy Tech</td>
+                            <td>Fardin</td>
+                            <td>01944667441</td>
+                            <td>fardin@gmail.com</td>
+                            <td>7/9/25</td>
+                            <td><span class="badge bg-label-danger me-1">Reject</span></td>
+
+                            <td><button class="btn btn-primary">Details</button></td>
 
                             <td>
                             <div class="dropdown">
