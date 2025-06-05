@@ -11,7 +11,7 @@ $current_page = basename($_SERVER['PHP_SELF']); // Get the current page name
         <div class="card mb-4">
                     <div class="card-header">
                       <h5 style="padding-bottom: 22px; border-bottom: 1px solid;" class="text-primary mb-0">
-                        <b>Add Lead</b>
+                        <b>Add Project</b>
                       </h5>
                       <br>
                     </div>
@@ -26,7 +26,7 @@ $current_page = basename($_SERVER['PHP_SELF']); // Get the current page name
                             <input name="agency_name" type="text" class="form-control" id="basic-default-name" placeholder="Enter Agency Name"  required/>
                           </div>
                         </div>
-                        
+
                         <!-- Brand Name -->
                         <div class="row mb-3">
                           <label class="col-sm-2 col-form-label" for="basic-default-name">Brand Name</label>
@@ -93,12 +93,9 @@ $current_page = basename($_SERVER['PHP_SELF']); // Get the current page name
                             <div class="col-md-10">
                                 <select name="status" class="form-select" id="exampleFormControlSelect1" aria-label="Default select example">
                                     <option selected="" disabled>Choose Status</option>
-                                    <option value="active">Active</option>
-                                    <option value="on_process">On Process</option>
-                                    <option value="meeting">Meeting</option>
-                                    <option value="pending">Pending</option>
-                                    <option value="onboard">Onboard</option>
-                                    <option value="reject">Reject</option>
+                                    <option value="active">Onboard</option>
+                                    <option value="completed">Completed</option>
+                                    <option value="cancelled">Cancelled</option>
                                 </select>
                             </div>
                         </div>
@@ -106,7 +103,7 @@ $current_page = basename($_SERVER['PHP_SELF']); // Get the current page name
                         <!-- Submit -->
                         <div class=" mb-3 row justify-content-end">
                           <div class="col-sm-10">
-                            <button type="submit" class="btn btn-primary">Add Lead</button>
+                            <button type="submit" class="btn btn-primary">Add Project</button>
                           </div>
                         </div>
 

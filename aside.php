@@ -83,18 +83,18 @@
             <li class="menu-header small text-uppercase"><span class="menu-header-text">Pages</span></li>
             
             <!-- Leads -->
-            <li class="menu-item <?= in_array($current_page, ['add-lead.php', 'view-leads.php']) ? 'active open' : '' ?>" id="leads-menu">
+            <li class="menu-item <?= in_array($current_page, ['add-lead.php', 'view-leads.php']) ? 'active open' : '' ?>">
               <a href="javascript:void(0)" class="menu-link menu-toggle">
                 <i class="menu-icon tf-icons bx bx-crown"></i>
                 <div data-i18n="Leads">Leads</div>
               </a>
               <ul class="menu-sub">
-                <li class="menu-item <?= $current_page == 'add-lead.php' ? 'active' : '' ?>" id="add-lead-menu">
+                <li class="menu-item <?= $current_page == 'add-lead.php' ? 'active' : '' ?>">
                   <a href="add-lead.php" class="menu-link">
                     <div data-i18n="Add Lead">Add Lead</div>
                   </a>
                 </li>
-                <li class="menu-item <?= $current_page == 'view-leads.php' ? 'active' : '' ?>" id="view-leads-menu">
+                <li class="menu-item <?= $current_page == 'view-leads.php' ? 'active' : '' ?>">
                   <a href="view-leads.php" class="menu-link">
                     <div data-i18n="View Leads">View Leads</div>
                   </a>
@@ -104,30 +104,30 @@
 
 
             <!-- Projects -->
-            <li class="menu-item">
+            <li class="menu-item <?= in_array($current_page, ['add-project.php', 'view-projects.php', 'onboard-projects.php', 'completed-projects.php']) ? 'active open' : '' ?>">
               <a href="javascript:void(0)" class="menu-link menu-toggle">
                 <i class="menu-icon tf-icons bx bx-receipt"></i>
                 <div data-i18n="Projects">Projects</div>
               </a>
 
               <ul class="menu-sub">
-                <li class="menu-item">
-                  <a href="" class="menu-link">
+                <li class="menu-item <?= $current_page == 'add-project.php' ? 'active' : '' ?>">
+                  <a href="add-project.php" class="menu-link">
                     <div data-i18n="Add Projects">Add Projects</div>
                   </a>
                 </li>
-                <li class="menu-item">
-                  <a href="" class="menu-link">
+                <li class="menu-item <?= $current_page == 'view-projects.php' ? 'active' : '' ?>">
+                  <a href="view-projects.php" class="menu-link">
                     <div data-i18n="View Projects">View Projects</div>
                   </a>
                 </li>
-                <li class="menu-item">
-                  <a href="" class="menu-link">
+                <li class="menu-item <?= $current_page == 'onboard-projects.php' ? 'active' : '' ?>">
+                  <a href="onboard-projects.php" class="menu-link">
                     <div data-i18n="Onboard Projects">Onboard Projects</div>
                   </a>
                 </li>
-                <li class="menu-item">
-                  <a href="" class="menu-link">
+                <li class="menu-item <?= $current_page == 'completed-projects.php' ? 'active' : '' ?>">
+                  <a href="completed-projects.php" class="menu-link">
                     <div data-i18n="Completed Projects">Completed Projects</div>
                   </a>
                 </li>

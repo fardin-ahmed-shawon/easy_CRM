@@ -9,7 +9,7 @@ $current_page = basename($_SERVER['PHP_SELF']); // Get the current page name
 <div class="card">
                 <div class="card-header">
                       <h5 style="padding-bottom: 22px; border-bottom: 1px solid;" class="text-primary mb-0">
-                        <b>View Leads</b>
+                        <b>View Projects</b>
                       </h5>
                       <br>
                       
@@ -20,11 +20,9 @@ $current_page = basename($_SERVER['PHP_SELF']); // Get the current page name
                         </div>
                           <select class="form-select w-auto" id="sort-by-status" onchange="sortTableByStatus()">
                               <option value="" selected disabled>Sort by Status</option>
-                              <option value="Active">Active</option>
-                              <option value="Meeting">Meeting</option>
-                              <option value="Pending">Pending</option>
                               <option value="Onboard">Onboard</option>
-                              <option value="Reject">Reject</option>
+                              <option value="Completed">Completed</option>
+                              <option value="Cancelled">Cancelled</option>
                           </select>
                       </div>
                 </div>
@@ -33,7 +31,7 @@ $current_page = basename($_SERVER['PHP_SELF']); // Get the current page name
                   <table class="table">
                     <thead class="table-light">
                       <tr>
-                        <th>Lead No</th>
+                        <th>Project No</th>
                         <th>Agency Name</th>
                         <th>Brand Name</th>
                         <th>Client Name</th>
@@ -41,8 +39,8 @@ $current_page = basename($_SERVER['PHP_SELF']); // Get the current page name
                         <th>Email</th>
                         <th>Date</th>
                         <th>Staus</th>
-                        <th>Action</th>
                         <th>Option</th>
+                        <th>Action</th>
                       </tr>
                     </thead>
                     <tbody class="table-border-bottom-0">
@@ -57,9 +55,9 @@ $current_page = basename($_SERVER['PHP_SELF']); // Get the current page name
                             <td>01944667441</td>
                             <td>fardin@gmail.com</td>
                             <td>7/9/25</td>
-                            <td><span class="badge bg-label-primary me-1">Active</span></td>
+                            <td><span class="badge bg-label-info me-1">Onboard</span></td>
 
-                            <td><button class="btn btn-primary">Onboard As Project</button></td>
+                            <td><button class="btn btn-primary">Details</button></td>
 
                             <td>
                             <div class="dropdown">
@@ -85,9 +83,9 @@ $current_page = basename($_SERVER['PHP_SELF']); // Get the current page name
                             <td>01944667441</td>
                             <td>fardin@gmail.com</td>
                             <td>7/9/25</td>
-                            <td><span class="badge bg-label-success me-1">Onboard</span></td>
+                            <td><span class="badge bg-label-success me-1">Completed</span></td>
 
-                            <td>Already Added</td>
+                            <td><button class="btn btn-primary">Details</button></td>
 
                             <td>
                             <div class="dropdown">
@@ -112,9 +110,9 @@ $current_page = basename($_SERVER['PHP_SELF']); // Get the current page name
                             <td>01944667441</td>
                             <td>fardin@gmail.com</td>
                             <td>7/9/25</td>
-                            <td><span class="badge bg-label-info me-1">Meeting</span></td>
+                            <td><span class="badge bg-label-info me-1">Onboard</span></td>
 
-                            <td><button class="btn btn-primary">Onboard As Project</button></td>
+                            <td><button class="btn btn-primary">Details</button></td>
 
                             <td>
                             <div class="dropdown">
@@ -140,9 +138,9 @@ $current_page = basename($_SERVER['PHP_SELF']); // Get the current page name
                             <td>01944667441</td>
                             <td>fardin@gmail.com</td>
                             <td>7/9/25</td>
-                            <td><span class="badge bg-label-warning me-1">Pending</span></td>
+                            <td><span class="badge bg-label-success me-1">Completed</span></td>
 
-                            <td><button class="btn btn-primary">Onboard As Project</button></td>
+                            <td><button class="btn btn-primary">Details</button></td>
 
                             <td>
                             <div class="dropdown">
@@ -168,9 +166,9 @@ $current_page = basename($_SERVER['PHP_SELF']); // Get the current page name
                             <td>01944667441</td>
                             <td>fardin@gmail.com</td>
                             <td>7/9/25</td>
-                            <td><span class="badge bg-label-danger me-1">Reject</span></td>
+                            <td><span class="badge bg-label-danger me-1">Cancelled</span></td>
 
-                            <td><button class="btn btn-primary">Onboard As Project</button></td>
+                            <td><button class="btn btn-primary">Details</button></td>
 
                             <td>
                             <div class="dropdown">
