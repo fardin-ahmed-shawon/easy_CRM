@@ -4,7 +4,7 @@ $page_title = 'Lead Details'; // Set the page title
 require 'header.php';
 
 
-$lead_id = $_GET['id'] ?? ''; 
+$lead_id = $_GET['id'] ?? 1; 
 
 $lead = [
     'id' => $lead_id,
