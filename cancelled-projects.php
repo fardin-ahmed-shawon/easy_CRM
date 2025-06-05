@@ -15,7 +15,7 @@ $current_page = basename($_SERVER['PHP_SELF']); // Get the current page name
                       
                       <div class="input-group input-group-merge" style="max-width: 600px; margin-right: 20px">
                         <span class="input-group-text" id="basic-addon-search31"><i class="bx bx-search"></i></span>
-                        <input type="text" class="form-control" placeholder="Search..." aria-label="Search..." aria-describedby="basic-addon-search31">
+                        <input type="text" class="form-control" placeholder="Search Brand Name..." aria-label="Search Brand Name..." aria-describedby="basic-addon-search31">
                       </div>
                 </div>
                 

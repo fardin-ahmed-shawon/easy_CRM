@@ -13,20 +13,11 @@ $current_page = basename($_SERVER['PHP_SELF']); // Get the current page name
                       </h5>
                       <br>
                       
-                      <div class="d-flex">
-                        <div class="input-group input-group-merge" style="max-width: 600px; margin-right: 20px">
+                      <div class="input-group input-group-merge" style="max-width: 600px; margin-right: 20px">
                           <span class="input-group-text" id="basic-addon-search31"><i class="bx bx-search"></i></span>
-                          <input type="text" class="form-control" placeholder="Search..." aria-label="Search..." aria-describedby="basic-addon-search31">
-                        </div>
-                          <select class="form-select w-auto" id="sort-by-status" onchange="sortTableByStatus()">
-                              <option value="" selected disabled>Sort by Status</option>
-                              <option value="Active">Active</option>
-                              <option value="Meeting">Meeting</option>
-                              <option value="Pending">Pending</option>
-                              <option value="Onboard">Onboard</option>
-                              <option value="Reject">Reject</option>
-                          </select>
+                          <input type="text" class="form-control" placeholder="Search Brand Name..." aria-label="Search Brand Name..." aria-describedby="basic-addon-search31">
                       </div>
+
                 </div>
                 
                 <div class="table-responsive text-nowrap">
@@ -76,7 +67,7 @@ $current_page = basename($_SERVER['PHP_SELF']); // Get the current page name
 
 
                       <tr>
-                            <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>#55</strong>
+                            <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>#54</strong>
                             </td>
 
                             <td>Easy Tech LTD.</td>
@@ -103,7 +94,7 @@ $current_page = basename($_SERVER['PHP_SELF']); // Get the current page name
                       </tr>
 
                       <tr>
-                            <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>#55</strong>
+                            <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>#53</strong>
                             </td>
 
                             <td>Easy Tech LTD.</td>
@@ -131,7 +122,7 @@ $current_page = basename($_SERVER['PHP_SELF']); // Get the current page name
 
                       
                       <tr>
-                            <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>#55</strong>
+                            <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>#52</strong>
                             </td>
 
                             <td>Easy Tech LTD.</td>
@@ -159,7 +150,7 @@ $current_page = basename($_SERVER['PHP_SELF']); // Get the current page name
 
 
                       <tr>
-                            <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>#55</strong>
+                            <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>#51</strong>
                             </td>
 
                             <td>Easy Tech LTD.</td>
