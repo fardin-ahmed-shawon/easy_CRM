@@ -12,7 +12,7 @@
                         <div class="card-body">
                           <div class="card-title d-flex align-items-start justify-content-between">
                             <div class="avatar flex-shrink-0">
-                              <img src="../assets/img/icons/unicons/paypal.png" alt="Credit Card" class="rounded">
+                              <img src="assets/img/icons/unicons/paypal.png" alt="Credit Card" class="rounded">
                             </div>
                             <div class="dropdown">
                               <button class="btn p-0" type="button" id="cardOpt4" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -36,7 +36,7 @@
                         <div class="card-body">
                           <div class="card-title d-flex align-items-start justify-content-between">
                             <div class="avatar flex-shrink-0">
-                              <img src="../assets/img/icons/unicons/chart-success.png" alt="chart success" class="rounded">
+                              <img src="assets/img/icons/unicons/chart-success.png" alt="chart success" class="rounded">
                             </div>
                             <div class="dropdown">
                               <button class="btn p-0" type="button" id="cardOpt3" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -60,7 +60,7 @@
                         <div class="card-body">
                           <div class="card-title d-flex align-items-start justify-content-between">
                             <div class="avatar flex-shrink-0">
-                              <img src="../assets/img/icons/unicons/wallet-info.png" alt="Credit Card" class="rounded">
+                              <img src="assets/img/icons/unicons/wallet-info.png" alt="Credit Card" class="rounded">
                             </div>
                             <div class="dropdown">
                               <button class="btn p-0" type="button" id="cardOpt6" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -86,7 +86,7 @@
                         <div class="card-body">
                           <div class="card-title d-flex align-items-start justify-content-between">
                             <div class="avatar flex-shrink-0">
-                              <img src="../assets/img/icons/unicons/cc-primary.png" alt="Credit Card" class="rounded">
+                              <img src="assets/img/icons/unicons/cc-primary.png" alt="Credit Card" class="rounded">
                             </div>
                             <div class="dropdown">
                               <button class="btn p-0" type="button" id="cardOpt1" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
