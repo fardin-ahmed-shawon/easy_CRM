@@ -104,7 +104,7 @@
 
 
             <!-- Projects -->
-            <li class="menu-item <?= in_array($current_page, ['add-project.php', 'view-projects.php', 'onboard-projects.php', 'completed-projects.php']) ? 'active open' : '' ?>">
+            <li class="menu-item <?= in_array($current_page, ['add-project.php', 'view-projects.php', 'onboard-projects.php', 'completed-projects.php', 'cancelled-projects.php']) ? 'active open' : '' ?>">
               <a href="javascript:void(0)" class="menu-link menu-toggle">
                 <i class="menu-icon tf-icons bx bx-receipt"></i>
                 <div data-i18n="Projects">Projects</div>
@@ -129,6 +129,11 @@
                 <li class="menu-item <?= $current_page == 'completed-projects.php' ? 'active' : '' ?>">
                   <a href="completed-projects.php" class="menu-link">
                     <div data-i18n="Completed Projects">Completed Projects</div>
+                  </a>
+                </li>
+                <li class="menu-item <?= $current_page == 'cancelled-projects.php' ? 'active' : '' ?>">
+                  <a href="cancelled-projects.php" class="menu-link">
+                    <div data-i18n="Cancelled Projects">Cancelled Projects</div>
                   </a>
                 </li>
               </ul>

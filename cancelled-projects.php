@@ -9,21 +9,13 @@ $current_page = basename($_SERVER['PHP_SELF']); // Get the current page name
 <div class="card">
                 <div class="card-header">
                       <h5 style="padding-bottom: 22px; border-bottom: 1px solid;" class="text-primary mb-0">
-                        <b>View Projects</b>
+                        <b>Cancelled Projects</b>
                       </h5>
                       <br>
                       
-                      <div class="d-flex">
-                        <div class="input-group input-group-merge" style="max-width: 600px; margin-right: 20px">
-                          <span class="input-group-text" id="basic-addon-search31"><i class="bx bx-search"></i></span>
-                          <input type="text" class="form-control" placeholder="Search..." aria-label="Search..." aria-describedby="basic-addon-search31">
-                        </div>
-                          <select class="form-select w-auto" id="sort-by-status" onchange="sortTableByStatus()">
-                              <option value="" selected disabled>Sort by Status</option>
-                              <option value="Onboard">Onboard</option>
-                              <option value="Completed">Completed</option>
-                              <option value="Cancelled">Cancelled</option>
-                          </select>
+                      <div class="input-group input-group-merge" style="max-width: 600px; margin-right: 20px">
+                        <span class="input-group-text" id="basic-addon-search31"><i class="bx bx-search"></i></span>
+                        <input type="text" class="form-control" placeholder="Search..." aria-label="Search..." aria-describedby="basic-addon-search31">
                       </div>
                 </div>
                 
@@ -55,7 +47,7 @@ $current_page = basename($_SERVER['PHP_SELF']); // Get the current page name
                             <td>01944667441</td>
                             <td>fardin@gmail.com</td>
                             <td>7/9/25</td>
-                            <td><span class="badge bg-label-info me-1">Onboard</span></td>
+                            <td><span class="badge bg-label-danger me-1">Cancelled</span></td>
 
                             <td><button class="btn btn-primary">Details</button></td>
 
@@ -83,7 +75,7 @@ $current_page = basename($_SERVER['PHP_SELF']); // Get the current page name
                             <td>01944667441</td>
                             <td>fardin@gmail.com</td>
                             <td>7/9/25</td>
-                            <td><span class="badge bg-label-success me-1">Completed</span></td>
+                            <td><span class="badge bg-label-danger me-1">Cancelled</span></td>
 
                             <td><button class="btn btn-primary">Details</button></td>
 
@@ -110,7 +102,7 @@ $current_page = basename($_SERVER['PHP_SELF']); // Get the current page name
                             <td>01944667441</td>
                             <td>fardin@gmail.com</td>
                             <td>7/9/25</td>
-                            <td><span class="badge bg-label-info me-1">Onboard</span></td>
+                            <td><span class="badge bg-label-danger me-1">Cancelled</span></td>
 
                             <td><button class="btn btn-primary">Details</button></td>
 
@@ -138,7 +130,7 @@ $current_page = basename($_SERVER['PHP_SELF']); // Get the current page name
                             <td>01944667441</td>
                             <td>fardin@gmail.com</td>
                             <td>7/9/25</td>
-                            <td><span class="badge bg-label-success me-1">Completed</span></td>
+                            <td><span class="badge bg-label-danger me-1">Cancelled</span></td>
 
                             <td><button class="btn btn-primary">Details</button></td>
 
