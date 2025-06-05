@@ -40,7 +40,7 @@ $current_page = basename($_SERVER['PHP_SELF']); // Get the current page name
                         <th>Phone</th>
                         <th>Email</th>
                         <th>Date</th>
-                        <th>Staus</th>
+                        <th>Status</th>
                         <th colspan="2">Option</th>
                         <th>Action</th>
                       </tr>
