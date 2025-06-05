@@ -92,13 +92,15 @@ $current_page = basename($_SERVER['PHP_SELF']); // Get the current page name
                             <label for="html5-date-input" class="col-md-2 col-form-label">Status</label>
                             <div class="col-md-10">
                                 <select name="status" class="form-select" id="exampleFormControlSelect1" aria-label="Default select example">
-                                    <option selected="" disabled>Choose Status</option>
+                                  <option value="active" selected>Active</option>
+
+                                    <!-- <option selected="" disabled>Choose Status</option>
                                     <option value="active">Active</option>
                                     <option value="on_process">On Process</option>
                                     <option value="meeting">Meeting</option>
                                     <option value="pending">Pending</option>
                                     <option value="onboard">Onboard</option>
-                                    <option value="reject">Reject</option>
+                                    <option value="reject">Reject</option> -->
                                 </select>
                             </div>
                         </div>
