@@ -71,7 +71,7 @@
           <ul class="menu-inner py-1">
 
             <!-- Dashboard -->
-            <li class="menu-item active">
+            <li class="menu-item <?= $current_page == 'index.php' ? 'active' : '' ?>">
               <a href="index.php" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-home-circle"></i>
                 <div data-i18n="Analytics">Dashboard</div>
@@ -83,23 +83,22 @@
             <li class="menu-header small text-uppercase"><span class="menu-header-text">Pages</span></li>
             
             <!-- Leads -->
-            <li class="menu-item">
+            <li class="menu-item <?= in_array($current_page, ['add-lead.php', 'view-leads.php']) ? 'active open' : '' ?>" id="leads-menu">
               <a href="javascript:void(0)" class="menu-link menu-toggle">
                 <i class="menu-icon tf-icons bx bx-crown"></i>
                 <div data-i18n="Leads">Leads</div>
               </a>
               <ul class="menu-sub">
-                <li class="menu-item">
-                  <a href="" class="menu-link">
-                    <div data-i18n="Add Leads">Add Leads</div>
+                <li class="menu-item <?= $current_page == 'add-lead.php' ? 'active' : '' ?>" id="add-lead-menu">
+                  <a href="add-lead.php" class="menu-link">
+                    <div data-i18n="Add Lead">Add Lead</div>
                   </a>
                 </li>
-                <li class="menu-item">
-                  <a href="" class="menu-link">
+                <li class="menu-item <?= $current_page == 'view-leads.php' ? 'active' : '' ?>" id="view-leads-menu">
+                  <a href="view-leads.php" class="menu-link">
                     <div data-i18n="View Leads">View Leads</div>
                   </a>
                 </li>
-                
               </ul>
             </li>
 
