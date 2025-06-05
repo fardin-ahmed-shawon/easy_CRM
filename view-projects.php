@@ -57,7 +57,11 @@ $current_page = basename($_SERVER['PHP_SELF']); // Get the current page name
                             <td>7/9/25</td>
                             <td><span class="badge bg-label-info me-1">Onboard</span></td>
 
-                            <td><button class="btn btn-primary">Details</button></td>
+                            <td>
+                              <a href="project-details.php">
+                                <button class="btn btn-primary">Details</button>
+                              </a>
+                            </td>
 
                             <td>
                             <div class="dropdown">
@@ -85,7 +89,11 @@ $current_page = basename($_SERVER['PHP_SELF']); // Get the current page name
                             <td>7/9/25</td>
                             <td><span class="badge bg-label-success me-1">Completed</span></td>
 
-                            <td><button class="btn btn-primary">Details</button></td>
+                            <td>
+                              <a href="project-details.php">
+                                <button class="btn btn-primary">Details</button>
+                              </a>
+                            </td>
 
                             <td>
                             <div class="dropdown">
@@ -112,7 +120,11 @@ $current_page = basename($_SERVER['PHP_SELF']); // Get the current page name
                             <td>7/9/25</td>
                             <td><span class="badge bg-label-info me-1">Onboard</span></td>
 
-                            <td><button class="btn btn-primary">Details</button></td>
+                            <td>
+                              <a href="project-details.php">
+                                <button class="btn btn-primary">Details</button>
+                              </a>
+                            </td>
 
                             <td>
                             <div class="dropdown">
@@ -140,7 +152,11 @@ $current_page = basename($_SERVER['PHP_SELF']); // Get the current page name
                             <td>7/9/25</td>
                             <td><span class="badge bg-label-success me-1">Completed</span></td>
 
-                            <td><button class="btn btn-primary">Details</button></td>
+                            <td>
+                              <a href="project-details.php">
+                                <button class="btn btn-primary">Details</button>
+                              </a>
+                            </td>
 
                             <td>
                             <div class="dropdown">
@@ -168,7 +184,11 @@ $current_page = basename($_SERVER['PHP_SELF']); // Get the current page name
                             <td>7/9/25</td>
                             <td><span class="badge bg-label-danger me-1">Cancelled</span></td>
 
-                            <td><button class="btn btn-primary">Details</button></td>
+                            <td>
+                              <a href="project-details.php">
+                                <button class="btn btn-primary">Details</button>
+                              </a>
+                            </td>
 
                             <td>
                             <div class="dropdown">

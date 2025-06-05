@@ -17,7 +17,7 @@ $current_page = basename($_SERVER['PHP_SELF']); // Get the current page name
                     </div>
                     <div class="card-body">
 
-                      <form action="onboard-confirmation.php" method="POST">
+                      <form action="" method="POST">
 
                         <!-- Agency Name -->
                         <div class="row mb-3">

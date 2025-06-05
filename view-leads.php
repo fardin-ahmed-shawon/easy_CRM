@@ -59,8 +59,16 @@ $current_page = basename($_SERVER['PHP_SELF']); // Get the current page name
                             <td>7/9/25</td>
                             <td><span class="badge bg-label-primary me-1">Active</span></td>
 
-                            <td><button class="btn btn-primary">Details</button></td>
-                            <td><button class="btn btn-success">Onboard</button></td>
+                            <td>
+                              <a href="lead-details.php">
+                                <button class="btn btn-primary">Details</button>
+                              </a>
+                            </td>
+                            <td>
+                              <a href="onboard-confirmation.php">
+                                <button class="btn btn-success">Onboard</button>
+                              </a>
+                            </td>
 
                             <td>
                             <div class="dropdown">
@@ -88,7 +96,16 @@ $current_page = basename($_SERVER['PHP_SELF']); // Get the current page name
                             <td>7/9/25</td>
                             <td><span class="badge bg-label-success me-1">Onboard</span></td>
 
-                            <td><button class="btn btn-primary">Details</button></td>
+                            <td>
+                              <a href="lead-details.php">
+                                <button class="btn btn-primary">Details</button>
+                              </a>
+                            </td>
+                            <!-- <td>
+                              <a href="onboard-confirmation.php">
+                                <button class="btn btn-success">Onboard</button>
+                              </a>
+                            </td> -->
                             <td>Alread Onboard</td>
 
                             <td>
@@ -116,8 +133,16 @@ $current_page = basename($_SERVER['PHP_SELF']); // Get the current page name
                             <td>7/9/25</td>
                             <td><span class="badge bg-label-info me-1">Meeting</span></td>
 
-                            <td><button class="btn btn-primary">Details</button></td>
-                            <td><button class="btn btn-success">Onboard</button></td>
+                            <td>
+                              <a href="lead-details.php">
+                                <button class="btn btn-primary">Details</button>
+                              </a>
+                            </td>
+                            <td>
+                              <a href="onboard-confirmation.php">
+                                <button class="btn btn-success">Onboard</button>
+                              </a>
+                            </td>
 
                             <td>
                             <div class="dropdown">
@@ -145,8 +170,16 @@ $current_page = basename($_SERVER['PHP_SELF']); // Get the current page name
                             <td>7/9/25</td>
                             <td><span class="badge bg-label-warning me-1">Pending</span></td>
 
-                            <td><button class="btn btn-primary">Details</button></td>
-                            <td><button class="btn btn-success">Onboard</button></td>
+                            <td>
+                              <a href="lead-details.php">
+                                <button class="btn btn-primary">Details</button>
+                              </a>
+                            </td>
+                            <td>
+                              <a href="onboard-confirmation.php">
+                                <button class="btn btn-success">Onboard</button>
+                              </a>
+                            </td>
 
                             <td>
                             <div class="dropdown">
@@ -174,7 +207,16 @@ $current_page = basename($_SERVER['PHP_SELF']); // Get the current page name
                             <td>7/9/25</td>
                             <td><span class="badge bg-label-danger me-1">Reject</span></td>
 
-                            <td><button class="btn btn-primary">Details</button></td>
+                            <td>
+                              <a href="lead-details.php">
+                                <button class="btn btn-primary">Details</button>
+                              </a>
+                            </td>
+                            <!-- <td>
+                              <a href="onboard-confirmation.php">
+                                <button class="btn btn-success">Onboard</button>
+                              </a>
+                            </td> -->
                             <td>Unavailable</td>
 
                             <td>
