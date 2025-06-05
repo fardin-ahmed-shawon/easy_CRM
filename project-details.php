@@ -95,23 +95,27 @@ $project = [
                                     <strong>Deadline:</strong> <?php echo $project['deadline']; ?>
                                 </a>
                             </div>
-                            <!-- Actions -->
-                            <h6 class="text-muted mt-4">Actions</h6>
-                            <div class="d-flex gap-2">
-                                <a href="edit-project.php?id=<?php echo $project['id']; ?>" class="btn btn-warning">Edit Project</a>
 
-                                <form id="delete-form" action="delete-project.php" method="POST">
-                                    <input type="hidden" name="id" value="<?php echo $project['id']; ?>">
-                                    <button type="button" class="btn btn-danger" onclick="confirmDelete()">Delete Project</button>
-                                </form>
-
-                                <form action="update-status.php" method="POST">
-                                    <input type="hidden" name="id" value="<?php echo $project['id']; ?>">
-                                    <select name="status" class="form-select w-auto" onchange="this.form.submit()">
+                            <!-- Action 1 -->
+                            <h6 class="text-muted mt-4">Change Status</h6>
+                            <form action="update-status.php?id=<?php echo $project_id; ?>&type='project'" method="POST">
+                                <div class="d-flex gap-2">
+                                    <select name="status" class="form-select w-auto">
                                         <option value="Onboard" <?php echo $project['status'] == 'Onboard' ? 'selected' : ''; ?>>Onboard</option>
                                         <option value="Completed" <?php echo $project['status'] == 'Completed' ? 'selected' : ''; ?>>Completed</option>
                                         <option value="Cancelled" <?php echo $project['status'] == 'Cancelled' ? 'selected' : ''; ?>>Cancelled</option>
                                     </select>
+                                    <input type="submit" value="Save" class="btn btn-primary">
+                                </div>
+                            </form>
+
+                            <!-- Action 2 -->
+                            <h6 class="text-muted mt-4">Actions</h6>
+                            <div class="d-flex gap-2">
+                                <a href="edit-project.php?id=<?php echo $project['id']; ?>" class="btn btn-warning">Edit Project</a>
+                                <form id="delete-form" action="delete-project.php" method="POST">
+                                    <input type="hidden" name="id" value="<?php echo $project['id']; ?>">
+                                    <button type="button" class="btn btn-danger" onclick="confirmDelete()">Delete Project</button>
                                 </form>
                             </div>
 

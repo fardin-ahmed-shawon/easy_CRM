@@ -68,27 +68,37 @@ $lead = [
                         </div>
                     </div>
 
+                    <!-- Actions and Status Change -->
+                    <div class="d-flex justify-content-between">
+                        <!-- Action 1 -->
+                        <div>
+                            <h6 class="text-muted mt-4">Change Status</h6>
+                            <form action="update-status.php?id=<?php echo $lead_id; ?>&type='lead'" method="POST">
+                                <div class="d-flex gap-2">
+                                    <select name="status" class="form-select w-auto">
+                                        <option value="Active" <?php echo $lead['status'] == 'Active' ? 'selected' : ''; ?>>Active</option>
+                                        <option value="Meeting" <?php echo $lead['status'] == 'Meeting' ? 'selected' : ''; ?>>Meeting</option>
+                                        <option value="Pending" <?php echo $lead['status'] == 'Pending' ? 'selected' : ''; ?>>Pending</option>
+                                        <option value="Onboard" <?php echo $lead['status'] == 'Onboard' ? 'selected' : ''; ?>>Onboard</option>
+                                        <option value="Reject" <?php echo $lead['status'] == 'Reject' ? 'selected' : ''; ?>>Reject</option>
+                                    </select>
+                                    <input type="submit" value="Save" class="btn btn-primary">
+                                </div>
+                            </form>
+                        </div>  
 
-                    <!-- Actions -->
-                    <h6 class="text-muted mt-4">Actions</h6>
-                    <div class="d-flex gap-2">
-                        <a href="edit-lead.php?id=<?php echo $lead['id']; ?>" class="btn btn-warning">Edit Lead</a>
-
-                        <form id="delete-form" action="delete-lead.php" method="POST">
-                            <input type="hidden" name="id" value="<?php echo $lead['id']; ?>">
-                            <button type="button" class="btn btn-danger" onclick="confirmDelete()">Delete Lead</button>
-                        </form>
-
-                        <form action="update-status.php" method="POST">
-                            <input type="hidden" name="id" value="<?php echo $lead['id']; ?>">
-                            <select name="status" class="form-select w-auto" onchange="this.form.submit()">
-                                <option value="Active" <?php echo $lead['status'] == 'Active' ? 'selected' : ''; ?>>Active</option>
-                                <option value="Meeting" <?php echo $lead['status'] == 'Meeting' ? 'selected' : ''; ?>>Meeting</option>
-                                <option value="Pending" <?php echo $lead['status'] == 'Pending' ? 'selected' : ''; ?>>Pending</option>
-                                <option value="Onboard" <?php echo $lead['status'] == 'Onboard' ? 'selected' : ''; ?>>Onboard</option>
-                                <option value="Reject" <?php echo $lead['status'] == 'Reject' ? 'selected' : ''; ?>>Reject</option>
-                            </select>
-                        </form>
+                        <!-- Action 2 -->
+                        <div>
+                            <h6 class="text-muted mt-4">Actions</h6>
+                            <div class="d-flex gap-2">
+                                <a href="edit-lead.php?id=<?php echo $lead['id']; ?>" class="btn btn-warning">Edit Lead</a>
+                                <form id="delete-form" action="delete-lead.php" method="POST">
+                                    <input type="hidden" name="id" value="<?php echo $lead['id']; ?>">
+                                    <button type="button" class="btn btn-danger" onclick="confirmDelete()">Delete Lead</button>
+                                </form>
+                            </div>
+                        </div>
+                            
                     </div>
                     
                 </div>
