@@ -1,5 +1,6 @@
 <?php
 $current_page = basename($_SERVER['PHP_SELF']); // Get the current page name
+$page_title = 'View Projects'; // Set the page title
 ?>
 <?php require 'header.php'; ?>
 <!--=======================================================================-->

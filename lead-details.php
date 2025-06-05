@@ -1,5 +1,6 @@
 <?php
 $current_page = basename($_SERVER['PHP_SELF']); // Get the current page name
+$page_title = 'Lead Details'; // Set the page title
 require 'header.php';
 
 
@@ -20,13 +21,12 @@ $lead = [
 ?>
 <!--=======================================================================-->
 <!------------------------ Your Content Start From Here --------------------->
-
 <div class="container-xxl flex-grow-1 container-p-y">
     <div class="row">
         <div class="col-md-8 mx-auto">
             <div class="card">
                 <div class="card-header d-flex justify-content-between align-items-center">
-                    <h5 class="text-primary mb-0"><b>Lead Details</b></h5>
+                    <h5 class="text-primary mb-0"><b>Lead No: #5</b></h5>
                     <a href="view-leads.php" class="btn btn-secondary">Back to Leads</a>
                 </div>
                 <div class="card-body">
@@ -74,9 +74,9 @@ $lead = [
                     <div class="d-flex gap-2">
                         <a href="edit-lead.php?id=<?php echo $lead['id']; ?>" class="btn btn-warning">Edit Lead</a>
 
-                        <form action="delete-lead.php" method="POST" onsubmit="return confirm('Are you sure you want to delete this lead?');">
+                        <form id="delete-form" action="delete-lead.php" method="POST">
                             <input type="hidden" name="id" value="<?php echo $lead['id']; ?>">
-                            <button type="submit" class="btn btn-danger">Delete Lead</button>
+                            <button type="button" class="btn btn-danger" onclick="confirmDelete()">Delete Lead</button>
                         </form>
 
                         <form action="update-status.php" method="POST">
@@ -101,3 +101,20 @@ $lead = [
 <!---------------------------- Your Content End Here ------------------------>
 <!--========================================================================-->
 <?php require 'footer.php'; ?>
+<script>
+    function confirmDelete() {
+        Swal.fire({
+            title: 'Are you sure?',
+            text: "You won't be able to revert this!",
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#d33',
+            cancelButtonColor: '#3085d6',
+            confirmButtonText: 'Yes, delete it!'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                document.getElementById('delete-form').submit();
+            }
+        });
+    }
+</script>
