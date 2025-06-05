@@ -33,7 +33,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <div class="card-header d-flex justify-content-between align-items-center">
                     <h5 class="text-primary mb-0"><b>Edit Lead</b></h5>
                     <a href="lead-details.php?id=<?php echo $lead_id; ?>" class="btn btn-secondary">Back to Lead Details</a>
-                </div>
+                </div><hr>
                 <div class="card-body">
                     <form action="edit-lead.php?id=<?php echo $lead_id; ?>" method="POST">
                         <div class="mb-3">

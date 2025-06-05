@@ -4,7 +4,7 @@ $page_title = 'Project Details'; // Set the page title
 require 'header.php';
 
 
-$project_id = $_GET['id'] ?? ''; 
+$project_id = $_GET['id'] ?? 1; 
 
 $project = [
     'id' => $project_id,
@@ -83,7 +83,7 @@ $project = [
                                     <strong>Project Type:</strong> <?php echo $project['type']; ?>
                                 </a>
                                 <a href="javascript:void(0);" class="py-3 list-group-item list-group-item-action">
-                                    <strong>Budget:</strong> <?php echo $project['budget']; ?>
+                                    <strong>Budget: </strong><?php echo $project['budget']; ?> Tk
                                 </a>
                                 <a href="javascript:void(0);" class="py-3 list-group-item list-group-item-action">
                                     <strong>Payment Plan:</strong> <?php echo $project['payment_plan']; ?>
