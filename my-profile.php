@@ -3,29 +3,37 @@
 <!------------------------ Your Content Start From Here --------------------->
 <!--=======================================================================-->
             <div class="container-xxl flex-grow-1 container-p-y">
-              <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Home /</span> My Profile</h4>
+
+              <!-- <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Home /</span> My Profile</h4> -->
 
               <div class="row">
                 <div class="col-md-12">
-                  <ul class="nav nav-pills flex-column flex-md-row mb-3">
+
+                  <!-- <ul class="nav nav-pills flex-column flex-md-row mb-3">
                     <li class="nav-item">
                       <a class="nav-link active" href="javascript:void(0);"><i class="bx bx-user me-1"></i> Account</a>
                     </li>
 
-                    <!-- <li class="nav-item">
+                    <li class="nav-item">
                       <a class="nav-link" href="pages-account-settings-notifications.html"><i class="bx bx-bell me-1"></i> Notifications</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="pages-account-settings-connections.html"><i class="bx bx-link-alt me-1"></i> Connections</a>
-                    </li> -->
+                    </li>
 
-                  </ul>
+                  </ul> -->
+
                   <div class="card mb-4">
-                    <h5 class="card-header">Profile Details</h5>
+                      <div class="card-header">
+                        <h5 style="padding-bottom: 22px; border-bottom: 1px solid;" class="text-primary mb-0">
+                          <b>Profile Details</b>
+                        </h5>
+                        <br>
+                      </div>
                     <!-- Account -->
                     <div class="card-body">
                       <div class="d-flex align-items-start align-items-sm-center gap-4">
-                        <img src="../assets/img/avatars/1.png" alt="user-avatar" class="d-block rounded" height="100" width="100" id="uploadedAvatar">
+                        <img src="assets/img/avatars/1.png" alt="user-avatar" class="d-block rounded" height="100" width="100" id="uploadedAvatar">
                         <div class="button-wrapper">
                           <label for="upload" class="btn btn-primary me-2 mb-4" tabindex="0">
                             <span class="d-none d-sm-block">Upload new photo</span>
