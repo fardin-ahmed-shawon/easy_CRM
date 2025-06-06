@@ -16,11 +16,12 @@ $project = [
     'title' => 'project Title Example',
     'description' => 'This is a sample description for the project.',
     'date' => '2025-06-05',
-    'status' => 'Active',
+    'status' => 'Onboard',
     'type' => 'Web Development',
     'budget' => '15000',
     'payment_plan' => 'Mileston (2 Portions)',
     'requirements' => 'Responsive design, SEO optimization, CMS integration',
+    'onboard_date' => '2025-06-10',
     'deadline' => '2025-12-31',
 ];
 ?>
@@ -67,11 +68,11 @@ $project = [
                                     <strong>Description:</strong> <?php echo $project['description']; ?>
                                 </a>
                                 <a href="javascript:void(0);" class="py-3 list-group-item list-group-item-action">
-                                    <strong>Date:</strong> <?php echo $project['date']; ?>
+                                    <strong>Lead Insertion Date:</strong> <?php echo $project['date']; ?>
                                 </a>
                                 <a href="javascript:void(0);" class="py-3 list-group-item list-group-item-action">
                                     <strong>Status:</strong> 
-                                    <span class="badge bg-label-success"><?php echo ucfirst($project['status']); ?></span>
+                                    <span class="badge bg-label-info"><?php echo ucfirst($project['status']); ?></span>
                                 </a>
                             </div>
                         </div>
@@ -92,6 +93,9 @@ $project = [
                                     <strong>Requirements:</strong> <?php echo $project['requirements']; ?>
                                 </a>
                                 <a href="javascript:void(0);" class="py-3 list-group-item list-group-item-action">
+                                    <strong>Onboard Date:</strong> <?php echo $project['onboard_date']; ?>
+                                </a>
+                                <a href="javascript:void(0);" class="py-3 list-group-item list-group-item-action">
                                     <strong>Deadline:</strong> <?php echo $project['deadline']; ?>
                                 </a>
                             </div>
@@ -108,10 +112,12 @@ $project = [
                                     <input type="submit" value="Save" class="btn btn-primary">
                                 </div>
                             </form>
+                            
 
                             <!-- Action 2 -->
-                            <h6 class="text-muted mt-4">Actions</h6>
+                            <h6 class="text-muted mt-4">Option</h6>
                             <div class="d-flex gap-2">
+                                <a href="project-payments.php" class="btn btn-info">Payment</a>
                                 <a href="edit-project.php?id=<?php echo $project['id']; ?>" class="btn btn-warning">Edit Project</a>
                                 <form id="delete-form" action="delete-project.php" method="POST">
                                     <input type="hidden" name="id" value="<?php echo $project['id']; ?>">
