@@ -21,7 +21,7 @@ $page_title = 'Accounts'; // Set the page title
 
 <div class="containerX">
     <div class="row">
-        <div class="col-xl-3 col-lg-6">
+        <div class="col-sm-6 col-md-3 mt-4">
             <div class="card l-bg-cherry" style="background: #0088ff;background: linear-gradient(90deg, rgba(0, 136, 255, 1) 0%, rgba(0, 212, 255, 1) 50%, rgba(0, 178, 255, 1) 100%);">
                 <div class="card-statistic-3 p-4">
                     <div class="card-icon card-icon-large"><h2><i class="fas fa-shopping-cart"></i></h2></div>
@@ -41,7 +41,8 @@ $page_title = 'Accounts'; // Set the page title
                 </div>
             </div>
         </div>
-        <div class="col-xl-3 col-lg-6">
+
+        <div class="col-sm-6 col-md-3 mt-4">
             <div class="card l-bg-blue-dark" style="background: #FF0048;background: linear-gradient(90deg, rgba(255, 0, 72, 1) 0%, rgba(255, 0, 123, 1) 50%, rgba(255, 0, 72, 1) 100%);">
                 <div class="card-statistic-3 p-4">
                     <div class="card-icon card-icon-large"><h2>৳</h2></div>
@@ -61,7 +62,8 @@ $page_title = 'Accounts'; // Set the page title
                 </div>
             </div>
         </div>
-        <div class="col-xl-3 col-lg-6">
+
+        <div class="col-sm-6 col-md-3 mt-4">
             <div class="card l-bg-green-dark" style="background: #8000ff;background: linear-gradient(90deg, rgba(128, 0, 255, 1) 0%, rgba(93, 0, 255, 1) 50%, rgba(128, 0, 255, 1) 100%);">
                 <div class="card-statistic-3 p-4">
                     <div class="card-icon card-icon-large"><h2><i class="fas fa-ticket-alt"></i></h2></div>
@@ -81,7 +83,8 @@ $page_title = 'Accounts'; // Set the page title
                 </div>
             </div>
         </div>
-        <div class="col-xl-3 col-lg-6">
+
+        <div class="col-sm-6 col-md-3 mt-4">
             <div class="card l-bg-orange-dark" style="background: #2A7B9B;background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 156, 1) 50%, rgba(42, 123, 155, 1) 100%);">
                 <div class="card-statistic-3 p-4">
                     <div class="card-icon card-icon-large"><h2>৳</h2></div>
@@ -103,10 +106,9 @@ $page_title = 'Accounts'; // Set the page title
         </div>
     </div>
     
-    <br>
 
     <div class="row">
-        <div class="col-xl-3 col-lg-6">
+        <div class="col-sm-6 col-md-3 mt-4">
             <div class="card l-bg-orange-dark" style="background: #2A7B9B;background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 156, 1) 50%, rgba(42, 123, 155, 1) 100%);">
                 <div class="card-statistic-3 p-4">
                     <div class="card-icon card-icon-large"><h2>৳</h2></div>
@@ -126,7 +128,8 @@ $page_title = 'Accounts'; // Set the page title
                 </div>
             </div>
         </div>
-        <div class="col-xl-3 col-lg-6">
+
+        <div class="col-sm-6 col-md-3 mt-4">
             <div class="card l-bg-orange-dark" style="background: #8000ff;background: linear-gradient(90deg, rgba(128, 0, 255, 1) 0%, rgba(93, 0, 255, 1) 50%, rgba(128, 0, 255, 1) 100%);">
                 <div class="card-statistic-3 p-4">
                     <div class="card-icon card-icon-large"><h2>৳</h2></div>
@@ -146,7 +149,8 @@ $page_title = 'Accounts'; // Set the page title
                 </div>
             </div>
         </div>
-        <div class="col-xl-3 col-lg-6">
+
+        <div class="col-sm-6 col-md-3 mt-4">
             <div class="card l-bg-orange-dark" style="background: #FF0048;background: linear-gradient(90deg, rgba(255, 0, 72, 1) 0%, rgba(255, 0, 123, 1) 50%, rgba(255, 0, 72, 1) 100%);">
                 <div class="card-statistic-3 p-4">
                     <div class="card-icon card-icon-large"><h2>৳</h2></div>
@@ -166,7 +170,8 @@ $page_title = 'Accounts'; // Set the page title
                 </div>
             </div>
         </div>
-        <div class="col-xl-3 col-lg-6">
+
+        <div class="col-sm-6 col-md-3 mt-4">
             <div class="card l-bg-orange-dark"  style="background: #0088ff;background: linear-gradient(90deg, rgba(0, 136, 255, 1) 0%, rgba(0, 212, 255, 1) 50%, rgba(0, 178, 255, 1) 100%);">
                 <div class="card-statistic-3 p-4">
                     <div class="card-icon card-icon-large"><h2>৳</h2></div>

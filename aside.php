@@ -147,31 +147,26 @@
 
 
             <!-- Accounts -->
-            <li class="menu-item">
+            <li class="menu-item <?= in_array($current_page, ['accounts.php', 'collections.php', 'add-expense.php']) ? 'active open' : '' ?>">
               <a href="javascript:void(0)" class="menu-link menu-toggle">
                 <i class="menu-icon tf-icons bx bx-wallet"></i>
                 <div data-i18n="Projects">Accounts</div>
               </a>
 
               <ul class="menu-sub">
-                <li class="menu-item">
-                  <a href="" class="menu-link">
+                <li class="menu-item <?= $current_page == 'accounts.php' ? 'active' : '' ?>">
+                  <a href="accounts.php" class="menu-link">
                     <div data-i18n="Accounts">Accounts</div>
                   </a>
                 </li>
-                <li class="menu-item">
-                  <a href="" class="menu-link">
+                <li class="menu-item <?= $current_page == 'collections.php' ? 'active' : '' ?>">
+                  <a href="collections.php" class="menu-link">
                     <div data-i18n="Collections">Collections</div>
                   </a>
                 </li>
-                <li class="menu-item">
-                  <a href="" class="menu-link">
+                <li class="menu-item <?= $current_page == 'add-expense.php' ? 'active' : '' ?>">
+                  <a href="add-expense.php" class="menu-link">
                     <div data-i18n="Add Expense">Add Expense</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="" class="menu-link">
-                    <div data-i18n="Send Money">Send Money</div>
                   </a>
                 </li>
               </ul>
