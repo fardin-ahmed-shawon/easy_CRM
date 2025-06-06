@@ -124,7 +124,7 @@ $page_title = 'Project Payments'; // Set the page title
                                 <a href="javascript:void(0);" class="py-3 list-group-item list-group-item-action">
                                     <strong>Title:</strong> project Title Example                                </a>
                                 <a href="javascript:void(0);" class="py-3 list-group-item list-group-item-action">
-                                    <strong>Lead Insetion Date:</strong> 2025-06-05                                </a>
+                                    <strong>Lead Insertion Date:</strong> 2025-06-05                                </a>
                                 <a href="javascript:void(0);" class="py-3 list-group-item list-group-item-action">
                                     <strong>Status:</strong> 
                                     <span class="badge bg-label-info">Onboard</span>

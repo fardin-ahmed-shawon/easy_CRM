@@ -84,7 +84,7 @@ $page_title = 'Add Lead'; // Set the page title
                         <div class="mb-4 row">
                             <label for="html5-date-input" class="col-md-2 col-form-label">Date</label>
                             <div class="col-md-10">
-                            <input name="date" class="form-control" type="date" value="<?php echo date('Y-m-d'); ?>" id="html5-date-input">
+                            <input class="form-control" type="date" value="<?php echo date('Y-m-d'); ?>" id="html5-date-input" readonly>
                             </div>
                         </div>
 

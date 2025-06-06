@@ -73,6 +73,14 @@ $page_title = 'Onboard Confirmation'; // Set the page title
                             <textarea name="requirment" id="basic-default-message" class="form-control" placeholder="Enter Requirment" aria-label="Requirment" aria-describedby="basic-icon-default-message2"></textarea>
                           </div>
                         </div>
+
+                        <!-- Onboard Date -->
+                        <div class="mb-4 row">
+                            <label for="html5-date-input" class="col-md-2 col-form-label">Onboard Date</label>
+                            <div class="col-md-10">
+                            <input class="form-control" type="date" value="<?php echo date('Y-m-d'); ?>" id="html5-date-input" readonly>
+                            </div>
+                        </div>
                         
                         <!-- Deadline -->
                         <div class="mb-4 row">
