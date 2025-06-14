@@ -185,7 +185,19 @@
 
             <!--# Settings #-->
             <li class="menu-header small text-uppercase"><span class="menu-header-text">Settings</span></li>
+
             <li class="menu-item">
+              <a
+                href=""
+                target="_blank"
+                class="menu-link"
+              >
+                <i class="menu-icon tf-icons bx bx-cog me-2"></i>
+                <div data-i18n="Documentation">Settings</div>
+              </a>
+            </li>
+            
+            <!-- <li class="menu-item">
               <a
                 href=""
                 target="_blank"
@@ -194,8 +206,9 @@
                 <i class="menu-icon tf-icons bx bx-support"></i>
                 <div data-i18n="Support">Support</div>
               </a>
-            </li>
-            <li class="menu-item">
+            </li> -->
+
+            <!-- <li class="menu-item">
               <a
                 href=""
                 target="_blank"
@@ -204,7 +217,7 @@
                 <i class="menu-icon tf-icons bx bx-file"></i>
                 <div data-i18n="Documentation">Documentation</div>
               </a>
-            </li>
+            </li> -->
 
           </ul>
           <!--=================== End End Menu Items =================-->
